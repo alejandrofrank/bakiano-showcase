@@ -23,6 +23,17 @@ My work spans the collection infrastructure, historical warehouse, transformatio
 - **Product:** a Next.js application with an analyst, dashboards, and listing follow-up workflows.
 - **Operations:** infrastructure as code, container deployments, bounded warehouse queries, and a shared result cache.
 
+## Explore the public code
+
+Two standalone projects make specific engineering problems behind Bakiano easy to inspect and run:
+
+| Project | What you can try |
+| --- | --- |
+| [Catalog Match Lab](https://github.com/alejandrofrank/catalog-match-lab) | Compare messy product names, inspect identity decisions, edit synthetic inventory, and import a CSV in a visual lab. |
+| [BigQuery Query Guard](https://github.com/alejandrofrank/bigquery-query-guard) | Explore authorization, scoped cache reuse, query estimates, and byte limits through an interactive sandbox. |
+
+Both offline demos run locally with Node.js 22+ and require no cloud credentials or API keys. Catalog Match Lab uses fictional data and an explicit rules-based matcher; Query Guard uses its real guard library with simulated warehouse and cache adapters. Each repository documents its optional external integrations and limits.
+
 ## A real observation
 
 ![Public price detail showing the retailer, two observation dates, the price change, and a source link](assets/price-observation.png)
