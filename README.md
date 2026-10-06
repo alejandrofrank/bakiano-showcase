@@ -18,7 +18,7 @@ Public engineering case study by Alejandro Frank. The product source is private.
 
 All three local demos require Node.js 22+ and run without credentials. Default browser interactions make no cloud or model calls.
 
-All three labs share a **Colors** selector: Graphite / amber, Slate / cyan and Ink / lilac. Preferences are saved locally; changing the palette preserves the experiment and its evidence.
+All three labs share a **Colors** selector: Slate / blue, Graphite / grey and Midnight / blue. Preferences are saved locally; changing the palette preserves the experiment and its evidence.
 
 <details>
 <summary><strong>Ingestion:</strong> eight rows with either receipt rule, but one read and merge versus two</summary>
